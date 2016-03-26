@@ -1,0 +1,160 @@
+.float-btn, .btn-top-left, .btn-bottom-right {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+}
+
+/* line 16, ../sass/print.scss */
+.float-menu, .navbar-float {
+  width: 180px;
+  min-height: 100px;
+  overflow-y: auto;
+}
+
+/* line 22, ../sass/print.scss */
+.transition-all, .btn-top-left, .navbar-float, #sidebar-min {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 35, ../sass/print.scss */
+.btn-top-left {
+  position: fixed;
+  z-index: 99;
+  top: 140px;
+  left: 5px;
+}
+/* line 42, ../sass/print.scss */
+.btn-bottom-right {
+  position: fixed;
+  z-index: 99;
+  bottom: 100px;
+  right: 5px;
+}
+
+/* line 50, ../sass/print.scss */
+.navbar-float {
+  display: none;
+  position: fixed;
+  z-index: 99;
+}
+
+/* line 58, ../sass/print.scss */
+.main-container {
+  position: relative;
+}
+
+/* line 61, ../sass/print.scss */
+.container-fluid {
+  padding-left: 55px;
+}
+
+/* line 65, ../sass/print.scss */
+#sidebar-min {
+  position: fixed;
+  z-index: 99;
+  top: 140px;
+  width: 60px;
+  height: 60px;
+  overflow-y: auto;
+}
+
+/* line 75, ../sass/print.scss */
+#sidebar-float {
+  position: fixed;
+  z-index: 99;
+  top: 140px;
+  left: 5px;
+  width: 180px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: aliceblue;
+}
+/* line 85, ../sass/print.scss */
+#sidebar-float li {
+  text-indent: 10px;
+  line-height: 20px;
+  background-color: aliceblue;
+}
+/* line 90, ../sass/print.scss */
+#sidebar-float li a {
+  display: block;
+  text-decoration: none;
+  color: #59287c;
+}
+/* line 94, ../sass/print.scss */
+#sidebar-float li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #59287c;
+  opacity: 0.7;
+}
+/* line 101, ../sass/print.scss */
+#sidebar-float li a span.caret {
+  margin-left: 30px;
+}
+/* line 106, ../sass/print.scss */
+#sidebar-float li.active, #sidebar-float li:focus {
+  text-decoration: none;
+  background: #59287c;
+}
+/* line 109, ../sass/print.scss */
+#sidebar-float li.active > a, #sidebar-float li:focus > a {
+  text-decoration: none;
+  color: #fff;
+  background: #59287c;
+  opacity: 0.7;
+}
+/* line 120, ../sass/print.scss */
+#sidebar-float > li > a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #59287c;
+  opacity: 0.7;
+}
+
+/* line 127, ../sass/print.scss */
+.sidebar-submenu {
+  padding-left: 0px;
+}
+/* line 129, ../sass/print.scss */
+.sidebar-submenu li {
+  text-indent: 35px !important;
+  line-height: 30px;
+}
+
+/* line 135, ../sass/print.scss */
+#sidebar-wrapper {
+  width: 180px;
+}
+
+/* line 138, ../sass/print.scss */
+#wrapper.toggled #sidebar-wrapper {
+  width: 0;
+}
+
+/* line 142, ../sass/print.scss */
+#scrollToTop {
+  display: none;
+}
+
+.Typeahead-spinner {
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+
+.Typeahead-tooltip {
+    position: absolute;
+    top: 7px;
+    right: -5px;
+    color: #002f86;
+    display: none;
+}
+
